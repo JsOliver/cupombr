@@ -1417,7 +1417,7 @@ html {
 
 @media (min-width: 768px) {
     .hu-autocomplete .autocomplete-results ul, .hu-autocomplete ul.autocomplete-results {
-        max-height: calc(100vh - 120px)
+        max-height: calc(100vh - 100px)
     }
 }
 
@@ -4091,6 +4091,7 @@ html {
     transition: transform .3s, -webkit-transform .3s;
     transition: transform .3s, -webkit-transform .3s;
     z-index: 25
+
 }
 
 .container-search-widget, .container-search-widget *, .container-search-widget:after, .container-search-widget :after, .container-search-widget:before, .container-search-widget :before {
@@ -4552,11 +4553,11 @@ html {
 
 @media (min-width: 768px) {
     .hu-period-fields {
-        width: calc(100% - 120px)
+        width: calc(100% - 80px)
     }
 
     .hu-period-fields .hu-period-fields__input-group {
-        width: calc(50% - 10px);
+        width: calc(60% - 10px);
         margin-left: 10px
     }
 }

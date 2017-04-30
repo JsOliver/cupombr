@@ -1,4 +1,4 @@
-<div style="height:400px;" id="modalscheck"
+<div style="height:400px;position: absolute;right: -12%;" id="modalscheck"
      class="ReactModal__Content ReactModal__Content--after-open src-components-user-auth-___login-box__modal___2J-lz modalclose"
      tabindex="-1" aria-label="Modal" data-reactid=".0.0">
     <noscript data-reactid=".0.0.0"></noscript>

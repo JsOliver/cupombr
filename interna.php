@@ -4,9 +4,7 @@ include 'fixed_files/header.php';
 ?>
 
 
-<link rel="stylesheet" type="text/css"
-      href="css/interna.css">
-<div class="" >
+<div class="">
     <div id="myCarousel" class="carousel slide">
         <!--
         <ol class="carousel-indicators">
@@ -19,7 +17,7 @@ include 'fixed_files/header.php';
         <div class="carousel-inner" style="height: 150px">
 
             <?php
-            for ($i = 0; $i < 1 ; $i++):
+            for ($i = 0; $i < 1; $i++):
 
                 if ($i == 0):
                     $active = 'active';
@@ -28,7 +26,7 @@ include 'fixed_files/header.php';
 
                 endif;
                 ?>
-                <div class="item item1 <?php echo $active;?>">
+                <div class="item item1 <?php echo $active; ?>">
                     <div class="fill" style=" background-color:#48c3af;">
                         <div class="inner-content">
                             <div class="carousel-img">
@@ -55,21 +53,20 @@ include 'fixed_files/header.php';
 
                 <style>
 
-                .floats {
+                    .floats {
 
-                    background: #dee4dd;
-                    z-index: 10000000000000;
-                    width: 100%;
-                    float:left;
-                    padding: 1% 15% 1% 15%;
-                }
+                        background: #dee4dd;
+                        z-index: 10000000000000;
+                        width: 100%;
+                        float: left;
+                        padding: 1% 15% 1% 15%;
+                    }
 
+                    .floats li {
 
-                .floats li{
-
-                    float:left;
-                    margin: 0 2% 0 0;
-                }
+                        float: left;
+                        margin: 0 2% 0 0;
+                    }
                 </style>
                 <!--<a class="mapx-produto-pacotes-click-banner_promo"
                                                        href="https://www.hotelurbano.com/campanha/top-destinos"
@@ -81,7 +78,6 @@ include 'fixed_files/header.php';
                     <li>Restaurantes&nbsp;&nbsp; ></li>
                     <li>Sorveterias&nbsp;&nbsp; ></li>
                     <li>Sorverte Italia - Shopping Piaza Macaé</li>
-
 
 
                 </ul>
@@ -103,7 +99,7 @@ include 'fixed_files/header.php';
     </div>
 </div>
 <main role="main">
-    <div class="container">
+    <div class="">
 
         <section itemscope itemtype="http://schema.org/Hotel" id="wrap-content">
   <span class="promotion-sku" data-promotion-sku="NHU-7417-0-0-0-0">
@@ -151,11 +147,12 @@ include 'fixed_files/header.php';
           <div class="col-right" itemscope itemtype="http://schema.org/Offer">
             <span class="feature-price-min-text">
               <b>Oferta</b> a partir de
-              <span class="promotion-currency promotion-price-original" style="text-decoration: line-through;"  data-promotion-price-original >234</span><br/>
+              <span class="promotion-currency promotion-price-original" style="text-decoration: line-through;"
+                    data-promotion-price-original>234</span><br/>
             </span>
             <span class="feature-price-min-value" style="color: #f13744">
               <span itemprop="priceCurrency" content="BRL">R$</span>
-              <span data-promotion-price itemprop="price" content="840" class="promotion-price" >
+              <span data-promotion-price itemprop="price" content="840" class="promotion-price">
                 840
               </span>
             </span>
@@ -165,88 +162,109 @@ include 'fixed_files/header.php';
       </section><!--#wrap-page-head-->
     </div>
     <div class="content">
-         <style>
-          li {
-              list-style: none;
-          }
-
-          </style>
 
       <section id="wrap-gallery">
-        <div class="gallery-item">
-          <div class="label-promotion-tag">
-            <div class="promotion-tag" data-promotion-tag></div>
-            <div class="promotion-tag-discount" data-promotion-tag-discount></div>
-          </div>
-          <span class="photo-legend">Resort com Pensão Completa com 2 Crianças Free até 11 anos</span>
-          <div class="photo-image retina-image"
-               style="background: url('https://thumbcdn-3.hotelurbano.net/Mv3qI965wPcAEc4mMt6LgaKmjDs=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea2a8c95_buzios-beach-resort.jpg');"
-               data-desktop-uri="https://thumbcdn-3.hotelurbano.net/Mv3qI965wPcAEc4mMt6LgaKmjDs=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea2a8c95_buzios-beach-resort.jpg"
-               data-tablet-uri="https://thumbcdn-3.hotelurbano.net/z_a5Nks-11UcjTpo-0n8Pa0t8v8=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea2a8c95_buzios-beach-resort.jpg"
-               itemprop="image">
-          </div>
-          <span class="bg-transparency" data-on="click" data-event-category="Página_de_hotel"
-                data-event-action="Click_galeria" data-event-label="Foto_principal"></span>
-        </div>
+   <div class="container">
 
+<div class="carousel slide article-slide" id="article-photo-carousel">
 
-        <ul class="gallery-thumbnails">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner cont-slider">
 
+    <div class="item active">
+      <img style="width: 1200px; height: 400px;" alt="" title="" src="https://thumbcdn-z.hotelurbano.net/d9lCYdJwPpf9ywvvwjil6ngkxpw=/1920x440/https://especiais.s3.amazonaws.com/images/b675a592-c085-40b4-860d-da33b006852e.jpg" class="img-responsive">
+    </div>
+      <div class="item">
+      <img style="width: 1200px; height: 400px;" alt="" title="" src="https://thumbcdn-z.hotelurbano.net/-es_Pe8wNHE_UjlWT4R67WLhXvY=/1920x440/https://especiais.s3.amazonaws.com/images/e2b8a614-93e0-4c08-8639-a1b16fdd857d.png" class="img-responsive">
+    </div>
 
+  </div>
+    <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li class="active" data-slide-to="0" data-target="#article-photo-carousel">
+      <img alt="" src="https://thumbcdn-z.hotelurbano.net/d9lCYdJwPpf9ywvvwjil6ngkxpw=/1920x440/https://especiais.s3.amazonaws.com/images/b675a592-c085-40b4-860d-da33b006852e.jpg" class="img-responsive">
+    </li>
+      <li  data-slide-to="1" data-target="#article-photo-carousel">
+      <img alt="" src="https://thumbcdn-z.hotelurbano.net/-es_Pe8wNHE_UjlWT4R67WLhXvY=/1920x440/https://especiais.s3.amazonaws.com/images/e2b8a614-93e0-4c08-8639-a1b16fdd857d.png" class="img-responsive">
+    </li>
 
-            <?php
-            for($i;$i<7;$i++):
-            ?>
-            <li class="thumb "
-                data-desktop-uri="https://thumbcdn-4.hotelurbano.net/DdGTGIEo_8dmD6r8FBzo1Bcz6i4=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea41ff93_buzios-beach-resort.jpg"
-                data-tablet-uri="https://thumbcdn-4.hotelurbano.net/dhhdUTkLxxr6unOpUl4eEuqWMEw=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea41ff93_buzios-beach-resort.jpg"
-                data-on="click"
-                data-event-category="Página_de_hotel"
-                data-event-action="Click_galeria"
+  </ol>
+</div>
 
-                data-event-label="Foto_pequena"
-
-                title="">
-              <img
-                  src="https://thumbcdn-4.hotelurbano.net/TUQDWlqCq8kHWEDVCuU3IO3g-6I=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea41ff93_buzios-beach-resort.jpg"
-                  width="84"
-                  height="60"
-                  alt=""
-                  title=""
-                  itemprop="image"
-                  alt="">
-              <span class="bg-transparency"></span>
-
-            </li>
-<?php endfor;?>
-
-        </ul>
+</div>
         <div class="clear"></div>
       </section><!--#wrap-gallery-->
 
-      <section id="wrap-calendar">
-        <div class="calendar-box">
+      <section id="wrap-calendar" style="background: #ffffff;border: none;padding: 0;">
+        <div>
           <form id="formCalendarTop" class="formCalendar" data-max-children-age="11">
 
-            <div class="row">
 
-            </div>
             <div class="row">
-              <div class="column col-lg-12">
-                <input type="button" class="form-control-hu btn-large btn-search-availabilities
-                    "
-                       value="Verificar disponibilidade"
-                       data-on="click"
-                       data-event-category="Página_de_hotel"
-                       data-event-action="Click_verificar"
-                       data-event-label="DisponibilidadeA">
+              <div class="column col-lg-12" style="text-align: center;">
+                  <h1 style="font-weight: bold; color: #343434;">R$ <span style="font-size: 30pt;">1</span></h1>
+                  <p style="padding-bottom: 4px; font-weight: 600;">45 vendidos</p><br>
+
+                <a type="button" style="padding: 5% 15% 5% 15%;font-size: 15pt;"
+                   class="form-control-hu btn-large btn-search-availabilities">Comprar</a><br><br>
+                  <p style="color: #d58512;font-weight: 600;font-size: 10pt;">Adquira já esta oferta</p>
+
+                  <span style="font-size: 14pt;font-weight: bold">19%</span>
+                  <p style="text-transform: uppercase;color: #878485;font-size: 10pt;">de desconto</p>
+
+                  <hr style="background: black;margin-top: 10px;margin-bottom: 10px;">
+
+                  <span style="font-size: 13pt;font-weight: bold;">3003-0202</span>
+                  <p style="text-transform: uppercase;color: #878485;font-size: 10pt;">Compre pelo Telefone</p>
+
               </div>
-            </div>
-            <input type="hidden" name="id_hotel" value="7417">
-            <input type="hidden" name="sku_hotel" value="NHU-7417">
+
+
+              </div>
           </form>
         </div>
       </section><!--#wrap-calendar-->
+
+        <section id="wrap-calendar" style="padding-top: 8px; padding-bottom:0;width: 25%; margin:0 3% 0 0;left: 1%;">
+
+
+            <div class="row">
+              <div class="column col-lg-12" style="text-align: center;">
+
+
+                  <p style="font-size: 12pt;text-transform: uppercase;font-weight: 600;">Por tempo Limitado!</p>
+                  <p style="font-size: 12pt;text-transform: uppercase;font-weight: 600;">67080 dias 20:41:48</p>
+
+              </div>
+
+
+              </div>
+
+
+
+      </section><!--#wrap-calendar-->
+
+        <section id="wrap-calendar"
+                 style="padding-top: 8px; padding-bottom:0;width: 25%; margin:1% 3% 0 0;left: 1%;background: none;border: none;">
+
+
+            <div class="row">
+              <div class="column col-lg-12" style="text-align: center;">
+
+
+                <a href="" type="button"
+                   style="text-decoration:none;text-transform:uppercase;background:none; border:1px solid #292929; padding: 3% 5% 3% 5%; width:100%;font-size: 10pt;color: #404040;"
+                   class="">Compartilhe essa Oferta</a>
+
+              </div>
+
+
+              </div>
+
+
+
+      </section><!--#wrap-calendar-->
+
 
 
     </div>
@@ -347,467 +365,69 @@ include 'fixed_files/header.php';
     <br>
     <br>
 
+
+    <style>
+
+        #wrap-rooms p {
+            color: #343434;
+        }
+    </style>
+    <section id="wrap-availability" class="wrap-spacing" style="padding: 0 15%; height: 400px; position: relative;">
+        <div class="calendar-box" style="float:left;width:50%;">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 availabilities">
+                    <div class="availabilities-template">
+
+                    </div>
+                    <div class="no-package-searched" style="float: left;width: 100%;">
+
+                        <h2 class="section-title" style="color: #2794e1; float: left;width: 100%;">Regulamento da Oferta
+                            <span>&nbsp;Leia o Regulamento com Atenção</span>
+                        </h2>
+
+
+                    </div>
+                </div>
+
+                <div class="pull-right calendar-chosen-date calendar-info"></div>
+            </div>
+        </div>
+
+        <form id="formAvailabilities" action="/hotels/checkout" method="POST">
+            <section id="wrap-rooms" style="float: left;width: 60%;">
+
+                <p style="font-weight: bold;">Com Usar:</p>
+                <p >Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica
+                    e de impressos, e vem
+                    sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os
+                    embaralhou para fazer um livro de modelos de tipos.</p>
+
+                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem
+                    sendo utilizado desde o século XVI.</p>
+
+
+
+            </section>
+
+            <section id="wrap-rooms" style="float: right;width: 40%; margin-top: -10%;">
+
+
+                <span style="position: absolute;right: 5%;">Veja Também</span>
+                <br>
+                <br>
+                <?php
+                include 'components/interna/oferta.php';
+                ?>
+
+            </section>
+
+
     </section>
 
-    <input type="hidden" id="hotelPropertyId" value="7417">
-    <input type="hidden" id="hotelSku" value="NHU-7417">
-    <input type="hidden" id="hotelName" value="Búzios Beach Resort">
-    <input type="hidden" id="mapLatitude" value="-22.7855557">
-    <input type="hidden" id="mapLongitude" value="-41.923389499999985">
-
-    <!--MODALS-->
-    <div class="modal-gallery">
-        <div class="modal-gallery-display">
-            <span class="image"></span>
-            <span class="bg"></span>
-            <span class="bg2"></span>
-        </div>
-        <button class="modal-gallery-close">
-            <span>Fechar</span>
-        </button>
-        <div class="modal-gallery-left" data-on="click" data-event-category="Página_de_hotel"
-             data-event-action="Click_galeria_expandida" data-event-label="Seta">
-            <img src="//s.hotelurbano.com.br/static/hotels/20170426170649/images/gallery/chevron-left.png" width="30">
-        </div>
-        <div class="modal-gallery-right" data-on="click" data-event-category="Página_de_hotel"
-             data-event-action="Click_galeria_expandida" data-event-label="Seta">
-            <img src="//s.hotelurbano.com.br/static/hotels/20170426170649/images/gallery/chevron-right.png" width="30">
-        </div>
-        <div class="modal-gallery-legend"></div>
-        <div class="modal-gallery-chooser">
-            <ul class="gallery-thumbnails">
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-3.hotelurbano.net/VSEoz2-_2bDf-Io58kj_X4xDsDY=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea2a8c95_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-3.hotelurbano.net/Mv3qI965wPcAEc4mMt6LgaKmjDs=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea2a8c95_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-3.hotelurbano.net/z_a5Nks-11UcjTpo-0n8Pa0t8v8=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea2a8c95_buzios-beach-resort.jpg"
-                    title="Resort com Pensão Completa com 2 Crianças Free até 11 anos"
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-3.hotelurbano.net/k0-IsGHNeR-wVNk8CHzS1t8VXLU=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea2a8c95_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt="Resort com Pensão Completa com 2 Crianças Free até 11 anos"
-                        title="Resort com Pensão Completa com 2 Crianças Free até 11 anos"
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-4.hotelurbano.net/ZmpTk3dhQ8WCe3KVOmfQyI6DhSM=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea41ff93_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-4.hotelurbano.net/DdGTGIEo_8dmD6r8FBzo1Bcz6i4=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea41ff93_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-4.hotelurbano.net/dhhdUTkLxxr6unOpUl4eEuqWMEw=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea41ff93_buzios-beach-resort.jpg"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-4.hotelurbano.net/TUQDWlqCq8kHWEDVCuU3IO3g-6I=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea41ff93_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-0.hotelurbano.net/MtQmNbwe-KNlPzVCtSost7Ln2UE=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea674748_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-0.hotelurbano.net/J3Uzqgt4CCbDb8-xlwNEI8FYA9A=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea674748_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-0.hotelurbano.net/TwX1v-NFr48DdcrPXMD1ylrzIz4=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea674748_buzios-beach-resort.jpg"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-0.hotelurbano.net/ap2KXk3MWJCuSiB5FuKTL2ulWNY=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ea674748_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-1.hotelurbano.net/euRRt6ShPtrV_qvPHiVhBapybJ4=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eb87b4d0_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-1.hotelurbano.net/l9ASWu4ZmaEFN6li5PZok3RRa1w=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eb87b4d0_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-1.hotelurbano.net/wgEruNoUEZN1_klz64bRqr4cI2s=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eb87b4d0_buzios-beach-resort.jpg"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-1.hotelurbano.net/vi9kWlx7ZtwPaYtQbcECl_EVU4Q=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eb87b4d0_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-1.hotelurbano.net/TzgdQnOwgNsJl3mxvio-XGZNwvA=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eba7f01b_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-1.hotelurbano.net/WuUEFaWnEv4KT8-LrwXop0dhPsM=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eba7f01b_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-1.hotelurbano.net/oWtCIoMPfW2k9f5xhvV35o8NCJk=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eba7f01b_buzios-beach-resort.jpg"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-1.hotelurbano.net/V17Nb7vNJC4JQiRgy8SNHXtZpU4=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eba7f01b_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-0.hotelurbano.net/wI6O3-bsuy-yhQMggytqOX1tGys=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ebb827d1_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-0.hotelurbano.net/38ny0MMH6xMzBxlYo59QFgRVNFg=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ebb827d1_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-0.hotelurbano.net/QVbnA4nsOg8ZgjhgydgkvvgLsWY=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ebb827d1_buzios-beach-resort.jpg"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-0.hotelurbano.net/7DIZSer9HYeiJ9nA7LcWo139Xb4=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ebb827d1_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-3.hotelurbano.net/_xXjYhBQxXQ5cH4DCiAsKRNeMag=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ec99917d_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-3.hotelurbano.net/V-QQKyXzrUe0Uzf6A7dFbZetwvQ=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ec99917d_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-3.hotelurbano.net/2bZsrJCZDOzMN4-CmR7EOmqY9NQ=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ec99917d_buzios-beach-resort.jpg"
-                    title="Área de Lazer"
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-3.hotelurbano.net/22THAY4iBEdYNYUZZZ11grzR95M=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ec99917d_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt="Área de Lazer"
-                        title="Área de Lazer"
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-2.hotelurbano.net/Q9ieaH2IJx7oQw7lqsxihedRECg=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eca6c3f8_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-2.hotelurbano.net/GV8LQHhJRFH0B45pwHQA2NvR1zc=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eca6c3f8_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-2.hotelurbano.net/H_wB8LdjSYV1CqSTeVr2BxeSMS8=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eca6c3f8_buzios-beach-resort.jpg"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-2.hotelurbano.net/db3vq7yc6tc64Sd8P7zRr2tQcHk=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eca6c3f8_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-1.hotelurbano.net/Y3ZBEjCNCIvlMnJYVFzpPWI5pMY=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ecb65090_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-1.hotelurbano.net/ymHyEE2L0kfxDCQIeuF4qVJ7HkU=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ecb65090_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-1.hotelurbano.net/3tMqFZ6fvAncvYzr9V0VMx955Zk=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ecb65090_buzios-beach-resort.jpg"
-                    title="Boliche"
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-1.hotelurbano.net/AupE5pkH12ok4bIqJDL1aneOdyo=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ecb65090_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt="Boliche"
-                        title="Boliche"
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-3.hotelurbano.net/vJmU4cYfCYRyVWFZaxQzglhiuSw=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eccc1950_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-3.hotelurbano.net/SgRmsxtL21Yc6AT4C8nMZ4cgmRk=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eccc1950_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-3.hotelurbano.net/l4kasaNV7RgaetbSvifTCDF86sQ=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eccc1950_buzios-beach-resort.jpg"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-3.hotelurbano.net/SmwQIHNIqyXCCDiQ6DwSttR4gmY=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683eccc1950_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-3.hotelurbano.net/Jl3hkBaGIrbvnMTikz8j8QIs1_c=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ece40df9_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-3.hotelurbano.net/I8IFREQXrW2CRp7fT2Ho0b1lHDA=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ece40df9_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-3.hotelurbano.net/IaATmWldZ9uU8sG2ycepE_Q4cc4=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ece40df9_buzios-beach-resort.jpg"
-                    title="Apartamento Deluxe"
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-3.hotelurbano.net/aMvQ546tlA7KEUTsCQ_L5eMmT0Y=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ece40df9_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt="Apartamento Deluxe"
-                        title="Apartamento Deluxe"
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-3.hotelurbano.net/XNtDyDhxe5CchSWo1bqHipx9QX8=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ede55062_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-3.hotelurbano.net/zRvPhNO2kXVJWjRQc3P4_bflNCw=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ede55062_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-3.hotelurbano.net/qUI9YyyFq1wWiMJr5zq7fBFX70o=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ede55062_buzios-beach-resort.jpg"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-3.hotelurbano.net/YbHgsPegofoZvwkNyzSzQz_euWc=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ede55062_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-2.hotelurbano.net/N1t21HiZNhdJRsuAVLV3DPUMMmU=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683edf2a67d_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-2.hotelurbano.net/o9wZGIPF19UwXECb0SoCiD-yp6g=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683edf2a67d_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-2.hotelurbano.net/ydM_kwqq1Fu939CXRkeGz5JFrcM=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683edf2a67d_buzios-beach-resort.jpg"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-2.hotelurbano.net/q8c2zqS8JsQehzBEkI2poqVMs6M=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683edf2a67d_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-1.hotelurbano.net/qI6sFasZL9zwJyNOmwoIVnhiac4=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ee03c96b_buzios-beach-resort.JPG"
-                    data-desktop-uri="https://thumbcdn-1.hotelurbano.net/1oMuCLi3KmBwQXEAfNIUTka8QyA=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ee03c96b_buzios-beach-resort.JPG"
-                    data-tablet-uri="https://thumbcdn-1.hotelurbano.net/tqnlml-_CST1MuC5ziMPnRnlN6o=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ee03c96b_buzios-beach-resort.JPG"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-1.hotelurbano.net/apki80WpQB0kSK_eDnTqB9kI79c=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ee03c96b_buzios-beach-resort.JPG"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-3.hotelurbano.net/HnwRlNuoO1sCPDe2VcDviEDMVhg=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ee196266_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-3.hotelurbano.net/BhgEWC2cTPdcrPua4bmZeAQ8XCE=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ee196266_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-3.hotelurbano.net/KZMqVp5fN2h5agM8FhdqLgF0-T4=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ee196266_buzios-beach-resort.jpg"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-3.hotelurbano.net/0S1iD5CWnHuQwp3WpDOlepCybMk=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ee196266_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-0.hotelurbano.net/DCIOHZkJHzSp__JtvYzBD_X96VQ=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ee2889cf_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-0.hotelurbano.net/BbyZ58bA_bIqyQQ2JPycSdE1tLE=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ee2889cf_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-0.hotelurbano.net/t8UAjhcCYB0uxw5zZdgeAzeoRiM=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ee2889cf_buzios-beach-resort.jpg"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-0.hotelurbano.net/Aol5UWBAoj15kcUZdtAyFtytCzE=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57683ee2889cf_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-1.hotelurbano.net/vTKqf6lEpOurvR8lTjhtEAmyIuw=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57d2d3581e64b_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-1.hotelurbano.net/tXhucJeuOvmB6oi4gxki2ltqStg=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57d2d3581e64b_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-1.hotelurbano.net/PCImWrFhWAEHZCE3hjBSbh31AMk=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57d2d3581e64b_buzios-beach-resort.jpg"
-                    title="Trapézio no Resort"
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-1.hotelurbano.net/dRpMW84rnHCaBTzrbeQD8m8t2AQ=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57d2d3581e64b_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt="Trapézio no Resort"
-                        title="Trapézio no Resort"
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-3.hotelurbano.net/l8Y9jOOSTS0EYL4V5nTYhPgACrg=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57d2d35a33efd_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-3.hotelurbano.net/K9JoX5ryDfXaIy2G1E1vaawT-8M=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57d2d35a33efd_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-3.hotelurbano.net/y8feG-oRgqcH3ng6acDWoT0arbU=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57d2d35a33efd_buzios-beach-resort.jpg"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-3.hotelurbano.net/qV1A5_qllqpmGR3g37i7f9QfKfg=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/57d2d35a33efd_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-2.hotelurbano.net/moDVE8A1r8n59rpnHNwgvBthCZg=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/58e436b8c06cb_buzios-beach-resort.png"
-                    data-desktop-uri="https://thumbcdn-2.hotelurbano.net/13WKR2GO2--2gXNmeJIO6Hnd-U4=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/58e436b8c06cb_buzios-beach-resort.png"
-                    data-tablet-uri="https://thumbcdn-2.hotelurbano.net/JeV8_Knr9U4p34S_ihPWcSCdQwA=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/58e436b8c06cb_buzios-beach-resort.png"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-2.hotelurbano.net/kJWhQtZ-HSCuN44IHPrsaVISJJ0=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/58e436b8c06cb_buzios-beach-resort.png"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-                <li class="thumb"
-                    data-uri="https://thumbcdn-3.hotelurbano.net/CkHgu-iHXxULaubcINhwueT9ecI=/fit-in/0x562/bottom/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/58f4d7d316e6a_buzios-beach-resort.jpg"
-                    data-desktop-uri="https://thumbcdn-3.hotelurbano.net/Niqkpe9LszZgNqTBTxm8mK48S0E=/620x338/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/58f4d7d316e6a_buzios-beach-resort.jpg"
-                    data-tablet-uri="https://thumbcdn-3.hotelurbano.net/SDU7DbpD6KL_LG1_quJQ3d_0VNc=/879x308/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/58f4d7d316e6a_buzios-beach-resort.jpg"
-                    title=""
-                    data-on="click"
-                    data-event-category="Página_de_hotel"
-                    data-event-action="Click_galeria_expandida"
-                    data-event-label="Foto_pequena">
-                    <img
-                        src="https://thumbcdn-3.hotelurbano.net/2VhLY12iT6-TNccpm63Ot2PhIGs=/84x60/https%3A//d1wawz8va1fvss.cloudfront.net/reservas/prod0/7/7417/58f4d7d316e6a_buzios-beach-resort.jpg"
-                        width="84"
-                        height="60"
-                        alt=""
-                        title=""
-                        itemprop="image">
-                </li>
-
-            </ul>
-        </div>
-    </div>
-    <!-- #modalGallery -->
-
-    <!-- Modal loading -->
-    <div class="modal fade" id="modalLoading" tabindex="-1" role="dialog" aria-labelledby="ModalLoader"
-         aria-hidden="true">
-        <div class="img-loader"></div>
-    </div><!-- /.modal -->
-
-    <!-- Modal availability -->
-    <div class="modal fade" id="modalAvailability" tabindex="-1" role="dialog" aria-labelledby="ModalAvailability"
-         aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body clearfix">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal map -->
-    <div class="modal fade modal-map" tabindex="-1" role="dialog" aria-labelledby="ModalMapa" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body clearfix">
-                    <div class="modal-map-head clearfix">
-                        <div class="head-name-address"></div>
-                        <input type="button" class="form-control-hu btn-small btn-modal-close" value="Fechar">
-                    </div>
-                    <div id="modalMap"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Include lightbox-trivago to check redirects from trivago -->
-    <div id="lightbox-trivago" style="display: none;">
-        <div class="header">
-            <div class="title">
-                <span class="info"></span>
-            </div>
-        </div>
-        <div class="body">
-            <div class="info">
-                <div class="text">
-                    <div class="text__title">Olá viajante!</div>
-                    <div class="text__body">Confirme a data de hospedagem para prosseguir com a sua reserva</div>
-                </div>
-                <div class="checkin">
-                    <div class="label">Data de entrada</div>
-                    <div class="info">23 de março</div>
-                </div>
-                <div class="checkout">
-                    <div class="label">Data de saída</div>
-                    <div class="info">29 de março</div>
-                </div>
-            </div>
-            <div class="buttons">
-                <dir class="buttons__no">Quero alterar</dir>
-                <dir class="buttons__yes">Está correto!</dir>
-            </div>
-        </div>
-    </div>
-    <div id="mask" style="display: none;"></div>
-
-    <!--END MODALS-->
 
 
-    </div>
+
 </main>
 
 <?php

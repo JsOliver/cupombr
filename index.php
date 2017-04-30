@@ -2,14 +2,14 @@
 
 include 'fixed_files/header.php';
 ?>
-    <div class="page index-page" data-reactid=".xgwtq0esjk.3">
+    <div class="page index-page" data-reactid=".xgwtq0esjk.3"  style="z-index: 0 !important;">
         <noscript data-reactid=".xgwtq0esjk.3.0"></noscript>
-        <div id="hu-promocoes-banner_wide-id" data-reactid=".xgwtq0esjk.3.1"></div>
-        <div class="template template--home" data-reactid=".xgwtq0esjk.3.2">
-            <div style="background: #dfdfdf;" class="template__sections" data-reactid=".xgwtq0esjk.3.2.0">
+        <div id="hu-promocoes-banner_wide-id" data-reactid=".xgwtq0esjk.3.1" style="z-index: 0 !important;"></div>
+        <div class="template template--home" data-reactid=".xgwtq0esjk.3.2" style="z-index: 0 !important;">
+            <div style="background: #dfdfdf;" class="template__sections" data-reactid=".xgwtq0esjk.3.2.0" style="z-index: 0 !important;">
 
-                <div class="">
-                    <div id="myCarousel" class="carousel slide">
+                <div class=""  >
+                    <div id="myCarousel" class="carousel slide" style="z-index: 0 !important;">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

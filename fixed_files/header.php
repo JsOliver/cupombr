@@ -12,6 +12,8 @@
         .dropdown:hover {
             background: white !important;
             color: #238bf0 !important;
+            border-bottom: 2px solid #ff7900 !important;
+
         }
     </style>
     <script
@@ -35,10 +37,56 @@
     <link rel="stylesheet" href="css/hu-styleguide.css">
     <link rel="stylesheet" href="css/responsive.css"/>
 
+    <link rel="stylesheet" type="text/css"
+          href="css/interna.css">
+    <style>
+        li {
+            list-style: none;
+        }
+
+    </style>
+
+    <style>
+
+        /* Indicators list style */
+        .article-slide .carousel-indicators {
+            bottom: 0;
+            left: 0;
+            margin-left: 5px;
+            width: 100%;
+            height:20%;
+        }
+        /* Indicators list style */
+        .article-slide .carousel-indicators li {
+            border: medium none;
+            border-radius: 0;
+            float: left;
+            height: 54px;
+            margin-bottom: 5px;
+            margin-left: 0;
+            margin-right: 5px !important;
+            margin-top: 0;
+            width: 100px;
+        }
+        /* Indicators images style */
+        .article-slide .carousel-indicators img {
+            border: 2px solid #FFFFFF;
+            float: left;
+            height: 54px;
+            left: 0;
+            width: 100px;
+        }
+        /* Indicators active image style */
+        .article-slide .carousel-indicators .active img {
+            border: 2px solid #428BCA;
+            opacity: 0.7;
+        }
+    </style>
 </head>
 <body class="">
 <main role="main" id="reactRoot">
-    <div class="root-component" data-reactid=".xgwtq0esjk" data-react-checksum="461372349">
+    <div class="root-component" data-reactid=".xgwtq0esjk" data-react-checksum="461372349"
+         style="z-index: 10000000000000000000 !important; ">
 
         <div data-reactid=".xgwtq0esjk.1">
             <div data-reactid=".xgwtq0esjk.1.0">
@@ -53,13 +101,15 @@
                                 data-reactid=".xgwtq0esjk.1.0.0.0.1">
                             <div class="src-components-header-___header__wrapper___3D3zO"
                                  data-reactid=".xgwtq0esjk.1.0.0.0.1.0">
-                                <a href="http://127.0.0.1:8080/projects/cupombr/"
-                                   style="background:white;position: absolute;margin: 2% 5% 0 0;z-index: 10000;padding: 1%;border-radius: 4px;border-bottom: 4px solid #238BF0;">
+                                <a  href="index.php"
+                                   style="background:white;position: absolute;top:-30%;margin: 2% 5% 0 0; left: 2%; z-index: 2 !important;padding: 1% 2% 1% 2% ;border-radius: 4px;border-bottom: 4px solid #238BF0;">
                                     <img style="width: 200px" src="img/logo.png"></a>
                                 <div class="src-components-header-___header__links___3P1v8"
                                 >
 
                                     <style>
+
+
                                         .dropsd {
 
                                             display: none;
@@ -90,12 +140,12 @@
 
                                         }
                                     </style>
-                                    <nav style="margin: 0 0 0 25%;" class="src-components-header-___nav__nav___9Rcnx">
+                                    <nav style="position: absolute; z-index: 3 !important; right: 42%;" class="src-components-header-___nav__nav___9Rcnx">
 
 
                                         <?php for ($i = 0; $i < 5; $i++): ?>
                                             <a style="position: relative;"
-                                               class="dropdown src-components-header-___nav__item___3vJza src-components-header-___nav__transition___1ew0o  mapx-header-click-destinos"
+                                               class="dropdown  src-components-header-___nav__item___3vJza src-components-header-___nav__transition___1ew0o  mapx-header-click-destinos"
                                                href="#">
                                                 <i class="src-components-header-___nav__location___2vWsy src-fonts-___hu-icons__icon-location___6-JE3 src-components-header-___nav__icon___mUavX src-components-header-___nav__transition___1ew0o src-fonts-___hu-icons__iconfont___y4t4t"></i>
                                                 <span
@@ -115,18 +165,16 @@
                                         <?php endfor; ?>
                                     </nav>
 
-                                    <div style="margin: 0 0 0 15%;border:none !important;"
+                                    <div style="position:absolute;right:1.5%; float:right;border:none !important; padding: 0!important;"
                                          class="src-components-header-___header__other-links___12UaT"
                                          data-reactid=".xgwtq0esjk.1.0.0.0.1.0.1.1">
-                                        <div style="border:none !important;"
-                                             class="src-components-user-auth-___user-dropdown__dropdown___I5Uqi"
-                                             data-reactid=".xgwtq0esjk.1.0.0.0.1.0.1.1.1">
+
+                                        <a style="width: 170px;padding:13px 10px 10px 20px"
+                                           href=""
+                                           class="logsregs dropdown src-components-user-auth-___login-dropdown__menu___1AyZ- src-components-user-auth-___login-dropdown__link___3I9rI mapx-header-click-entrar"
+                                           data-reactid=".xgwtq0esjk.1.0.0.0.1.0.1.1.1.0">
 
 
-                                            <a style="width: 170px;"
-                                               href=""
-                                               class="dropdown src-components-user-auth-___login-dropdown__menu___1AyZ- src-components-user-auth-___login-dropdown__link___3I9rI mapx-header-click-entrar"
-                                               data-reactid=".xgwtq0esjk.1.0.0.0.1.0.1.1.1.0">
                                           <span style="font-size: 10pt;text-align: center;"
                                                 class=""
                                                 data-reactid=".xgwtq0esjk.1.0.0.0.1.0.1.1.1.0.1"><p
@@ -134,13 +182,20 @@
 <p style="font-size: 7pt;text-align: center;">Veja Nossas Ofertas</p>
 
                                           </span> &nbsp; &nbsp;
-                                                <span style="margin-top: -10%;font-size: 20pt;"
-                                                      class="src-components-user-auth-___login-dropdown__outline___3SBd4 src-components-user-auth-___login-dropdown__icon___Exzk3"
-                                                      data-reactid=".xgwtq0esjk.1.0.0.0.1.0.1.1.1.0.0"></span></a></div>
-                                        <a id="" href="#" style="width: 150px;"
-                                           class="dropdown src-components-user-auth-___login-dropdown__menu___1AyZ- src-components-user-auth-___login-dropdown__link___3I9rI mapx-header-click-entrar logindropdown"
+
+
+                                            <span style="margin-top: -10%;font-size: 20pt;"
+                                                  class="src-components-user-auth-___login-dropdown__outline___3SBd4 src-components-user-auth-___login-dropdown__icon___Exzk3"
+                                                  data-reactid=".xgwtq0esjk.1.0.0.0.1.0.1.1.1.0.0"></span>
+
+                                        </a>
+                                        <a id="" href="#" style="width: 150px;padding:13px 10px 10px 20px"
+                                           class="logsregs dropdown src-components-user-auth-___login-dropdown__menu___1AyZ- src-components-user-auth-___login-dropdown__link___3I9rI mapx-header-click-entrar logindropdown"
                                            data-reactid=".xgwtq0esjk.1.0.0.0.1.0.1.1.1.0"
                                         >
+
+
+
                                                 <span style="text-align: center;"
                                                       class=""
                                                       data-reactid=".xgwtq0esjk.1.0.0.0.1.0.1.1.1.0.1"><b>Login</b><p
@@ -354,6 +409,18 @@
 
                             }
 
+                            @media screen and (max-width: 900px) {
+                                #pcnavbar {
+                                    display: none;
+                                }
+
+                                .container-search-widget {
+                                    display: none;
+
+                                }
+
+                            }
+
 
                         </style>
                     </div>
@@ -364,20 +431,28 @@
         </div>
 
 
-        <div class="container-search-widget">
+        <style>
+
+
+        </style>
+
+
+        <div class="container-search-widget"
+             style="background: rgba(207, 216, 220, 0.8); z-index: 1 !important;  position: absolute;width: 100%;float: left;top: 60px;">
             <div class="search-container">
-                <div class="search-inner-container" style="padding: 0 0 0 26.5%;">
+                <div class="search-inner-container" style="padding: 0 0 0 24.2%;">
                     <div id="get-intent-midia">
                         <div class="hu-search">
 
                             <form class="hu-search-form search-opened" autocomplete="off" style="width:100%;">
-                                <div id="hu-hotels-autocomplete-field"  style="width:50%;"
+                                <div id="hu-hotels-autocomplete-field" style="width:50%;"
                                      class="hu-hotels-autocomplete-field hu-search__form-row search-opened">
                                     <div
                                         class="hu-autocomplete hu-autocomplete__input-group search-opened hu-autocomplete--desktop">
-                                        <div class="hu-autocomplete__input-group-addon"><i class="icon-location"></i>
+                                        <div class="hu-autocomplete__input-group-addon"><i
+                                                class="glyphicon glyphicon-search"></i>
                                         </div>
-                                        <input  type="text" id="huSearchComponentAutocomplete" name="q" tabindex="1"
+                                        <input type="text" id="huSearchComponentAutocomplete" name="q" tabindex="1"
                                                value="" placeholder="Procure por um destino ou hotel" autocomplete="off"
                                                data-on="click" data-event-category="Barra_de_busca"
                                                data-event-action="Click_campo_busca"></div>
@@ -389,10 +464,13 @@
                                             data-on="click" data-event-category="Barra_de_busca"
                                             data-event-action="Click_checkin">
                                             <div class="hu-period-fields__input-group-addon"><i
-                                                    class="icon-calendar2"></i></div>
-                                            <input type="text" id="hu-search-checkin"
-                                                   class="hu-period-fields__form-control" placeholder="Locais" value=""
-                                                   tabindex="2" readonly=""></div>
+                                                    class="icon-location"></i></div>
+
+                                            <select id="hu-search-checkin"
+                                                    class="hu-period-fields__form-control">
+                                                <option><small>Niterói</small></option>
+                                            </select>
+                                        </div>
                                         <div class="hu-submit-button-container">
                                             <button type="submit"
                                                     class="hu-submit-button mapx-widget-busca-click-buscar_hoteis"
